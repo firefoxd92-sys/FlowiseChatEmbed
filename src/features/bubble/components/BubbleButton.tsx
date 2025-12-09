@@ -133,18 +133,13 @@ export const BubbleButton = (props: Props) => {
               'white-space': 'nowrap',
             }}
           >
-            Ask AquaSolar
+            Ask Aquamen🤖
           </span>
         </Show>
 
         {/* Close icon when opened */}
         <Show when={props.isBotOpened}>
-          <svg
-            viewBox="0 0 24 24"
-            style={{ fill: props.iconColor ?? 'white' }}
-            width={24}
-            height={24}
-          >
+          <svg viewBox="0 0 24 24" style={{ fill: props.iconColor ?? 'white' }} width={24} height={24}>
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
